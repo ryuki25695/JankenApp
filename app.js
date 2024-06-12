@@ -38,7 +38,7 @@ function Judgement(PlayersChoice, PCsChoice)
     let resultMsg = "";
     let constPlayerWin = "プレイヤーの勝ち";
     let constPCWin = "コンピューターの勝ち";
-    let constDraw = "あいこ";
+    let constDraw = "aiko";
 
     if (PlayersChoice == PCsChoice) {
         resultMsg = constDraw;
